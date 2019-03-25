@@ -1,8 +1,8 @@
 @extends('layouts.default',['title'=>'About'])
 @section('content')
     <div class="container">
-        <h2>Whate is laracarte</h2>
-        <p>Laracarte is a clone app of <a href="https://laramap.com" target="_blank">laramap.com</a>
+        <h2>Whate is {{config('app.name')}}</h2>
+        <p>{{config('app.name')}} is a clone app of <a href="https://laramap.com" target="_blank">laramap.com</a>
         </p>
         <div class="row">
             <div class="col-md-6">
@@ -22,7 +22,7 @@
         <p>More info <a href="https://laramap.com/p/about"> here.</a>
         </p>
         <hr>
-        <h2>Which tools and services are you used in laracarte?</h2>
+        <h2>Which tools and services are you used in {{config('app.name')}} ?</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quam cupiditate est ipsa ea assumenda quas magni aspernatur nam odit saepe numquam velit, dicta aut enim eaque omnis consectetur a!
         </p>
         <ul>
